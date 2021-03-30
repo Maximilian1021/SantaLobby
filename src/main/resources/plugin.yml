@@ -1,0 +1,7 @@
+name: LobbySanta
+version: ${project.version}
+main: me.maximilian1021.main.Main
+api-version: 1.16
+authors: [ Maximilian1021 ]
+description: Lobby System Santa Network
+website: https://max1021.de
