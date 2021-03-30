@@ -18,7 +18,7 @@ public class onJoin implements Listener {
         Player p = e.getPlayer();
 
         /* Header */
-        p.setPlayerListHeader("§k!i!i   §cDeutsches Klassenzimmer - Survival   §r§k!i!i!");
+        p.setPlayerListHeader("§k!i!i   §cDas Klassenzimmer - Lobby   §r§k!i!i!");
         p.setPlayerListFooter("§7+++ §bNetwork hosted by §6§lMaximilian1021  §7+++");
 
         /* Join Message */
