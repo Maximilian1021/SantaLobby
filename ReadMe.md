@@ -6,3 +6,5 @@ Features:
 - Teleport to Lobby Spawn
 - Join & Leave Message
 - Tab Title gesetzt.
+
+[Discord](https://discord.gg/u9zHJW4)

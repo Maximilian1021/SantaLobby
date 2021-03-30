@@ -1,5 +1,6 @@
 package me.maximilian1021.main;
 
+import me.maximilian1021.commands.cmdSpawn;
 import me.maximilian1021.events.onJoin;
 import me.maximilian1021.events.tablistener;
 import org.bukkit.Bukkit;
@@ -15,6 +16,7 @@ public final class Main extends JavaPlugin {
 
     public final boolean isPlaceholderAPIEnabled() {
         return this.getServer().getPluginManager().isPluginEnabled("PlaceholderAPI");
+
     }
 
     @Override
@@ -26,6 +28,8 @@ public final class Main extends JavaPlugin {
 
         pm.registerEvents(new onJoin(), this);
         pm.registerEvents(new tablistener(), this);
+        pm.registerEvents(new Chatformat(), this);
+        getCommand("Spawn").setExecutor(new cmdSpawn());
 
     }
 

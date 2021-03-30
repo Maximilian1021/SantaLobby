@@ -5,3 +5,7 @@ api-version: 1.16
 authors: [ Maximilian1021 ]
 description: Lobby System Santa Network
 website: https://max1021.de
+
+commands:
+  Spawn:
+    description: Teleportiert dich zum Spawn
