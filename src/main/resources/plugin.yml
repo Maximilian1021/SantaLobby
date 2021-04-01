@@ -1,9 +1,9 @@
-name: LobbySanta
+name: Lobbysystem
 version: ${project.version}
 main: me.maximilian1021.main.Main
 api-version: 1.16
 authors: [ Maximilian1021 ]
-description: Lobby System Santa Network
+description: Steuert gewisse Funktionen in der Lobby
 website: https://max1021.de
 
 commands:

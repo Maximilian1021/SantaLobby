@@ -1,10 +1,18 @@
 # Deutsches Klassenzimmer - Lobby
-Lobbysystem für Deutsches Klassenzimmer Discord siehe unten
-- - -
+Lobbysystem für Das Klassenzimmer [Discord](https://discord.gg/u9zHJW4)
 
-Features:
-- Teleport to Lobby Spawn
+# Features
+- Teleport to Lobby Spawn after Join
 - Join & Leave Message
-- Tab Title gesetzt.
+- Tab Title is set.
+- Chat format is determined with the integration of the Luckperms API
+- Command /spawn
+---
+Planned functions
+- commands: /discord, /Bauwelt, /Farmwelt
+- verify Command (Gast -> Player)
 
-[Discord](https://discord.gg/u9zHJW4)
+
+Developed by Maximilian for Das Klassenzimmer
+
+
