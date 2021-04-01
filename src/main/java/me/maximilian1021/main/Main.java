@@ -1,8 +1,8 @@
 package me.maximilian1021.main;
 
-import me.maximilian1021.commands.cmdSpawn;
-import me.maximilian1021.events.onJoin;
-import me.maximilian1021.events.tablistener;
+import me.maximilian1021.commands.CMDSpawn;
+import me.maximilian1021.events.Join;
+import me.maximilian1021.events.Tablistener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,10 +26,10 @@ public final class Main extends JavaPlugin {
         Main.plugin = this;
 
 
-        pm.registerEvents(new onJoin(), this);
-        pm.registerEvents(new tablistener(), this);
+        pm.registerEvents(new Join(), this);
+        pm.registerEvents(new Tablistener(), this);
         pm.registerEvents(new Chatformat(), this);
-        getCommand("Spawn").setExecutor(new cmdSpawn());
+        getCommand("Spawn").setExecutor(new CMDSpawn());
 
     }
 

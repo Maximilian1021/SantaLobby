@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-public class tablistener implements Listener {
+public class Tablistener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
@@ -21,6 +21,8 @@ public class tablistener implements Listener {
             p.setPlayerListName("§6Spieler §8| §b" + p.getName());
         } else if (p.hasPermission("tab.team")) {
             p.setPlayerListName("§aTeam §8| §b" + p.getName());
+        } else if (p.hasPermission("tab.staff")) {
+            p.setPlayerListName("§cStaff §8| §b");
         }
 
     }
