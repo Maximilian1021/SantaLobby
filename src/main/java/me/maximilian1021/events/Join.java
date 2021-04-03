@@ -1,5 +1,6 @@
 package me.maximilian1021.events;
 
+import me.maximilian1021.main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -32,5 +33,13 @@ public class Join implements Listener {
     public void onLeave(PlayerQuitEvent e) {
         Player p = e.getPlayer();
         e.setQuitMessage("§c- §b " + e.getPlayer().getName());
+    }
+
+
+    @EventHandler
+    public void onPlayerConnect(PlayerJoinEvent e) {
+        if (!e.getPlayer().spigot().getRawAddress().getAddress().toString().contains(Main.getPlugin().getConfig().getString("bungee-ip"))) {
+            e.getPlayer().kickPlayer(Main.getPlugin().getConfig().getString("kick-message").replace("&", "§"));
+        }
     }
 }
