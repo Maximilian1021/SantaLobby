@@ -14,7 +14,7 @@ public class CMDSpawn implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         World world = Bukkit.getWorld("Wartelobby");
         Player p = (Player) sender;
-        Location loc = new Location(world,0.5,100,0.5);
+        Location loc = new Location(world,-4.5, 100, 6.5);
 
 
         p.teleport(loc);

@@ -1,0 +1,17 @@
+#Hier ist das Chatformat für LuckPerms angegeben
+#Angebbare Parameters {world} {prefix} {prefixes} {username} {display_name} {suffix} {suffixes}
+chat-format: '{prefix} {username} &8&l> &r{message}'
+
+#Hier kannst du die Tablist Footer und Header setzen
+Tab-Header: '§k!i!i   §cDas Klassenzimmer - Lobby   §r§k!i!i!"'
+Tab-Footer: '§7+++ §bNetwork hosted by §6§lMaximilian1021  §7+++'
+
+#Configure hier Only Proxy Joinw
+kick-message: Please connect using the server's main IP address.
+bungee-ip: 127.0.0.1
+
+#Configure here the Spawn Information
+Spawn-World: Wartelobby
+Spawn-X: 0.5
+Spawn-Y: 100
+Spawn-Z: 0.5
